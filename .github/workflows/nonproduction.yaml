@@ -3,7 +3,7 @@ name: Deploy feature branch
 on:
   push:
     branches:
-      - features*
+      - feature*
 
 jobs:
   build:
